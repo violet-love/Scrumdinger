@@ -94,6 +94,7 @@
 		CF26CB5328415DCB00F4A431 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				CF26CB7E2849E6EB00F4A431 /* Models */,
 				CF26CB5428415DCB00F4A431 /* ScrumdingerApp.swift */,
 				CF26CB5628415DCB00F4A431 /* MeetingView.swift */,
 				CF26CB5828415DCC00F4A431 /* Assets.xcassets */,
@@ -125,6 +126,13 @@
 				CF26CB7128415DCD00F4A431 /* ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		CF26CB7E2849E6EB00F4A431 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
