@@ -14,6 +14,8 @@
 		CF26CB6628415DCD00F4A431 /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26CB6528415DCD00F4A431 /* ScrumdingerTests.swift */; };
 		CF26CB7028415DCD00F4A431 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26CB6F28415DCD00F4A431 /* ScrumdingerUITests.swift */; };
 		CF26CB7228415DCD00F4A431 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26CB7128415DCD00F4A431 /* ScrumdingerUITestsLaunchTests.swift */; };
+		CF26CB802849E85A00F4A431 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26CB7F2849E85A00F4A431 /* Theme.swift */; };
+		CF26CB822849F19B00F4A431 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26CB812849F19B00F4A431 /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CF26CB6B28415DCD00F4A431 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF26CB6F28415DCD00F4A431 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		CF26CB7128415DCD00F4A431 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF26CB7F2849E85A00F4A431 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CF26CB812849F19B00F4A431 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		CF26CB7E2849E6EB00F4A431 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CF26CB7F2849E85A00F4A431 /* Theme.swift */,
+				CF26CB812849F19B00F4A431 /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF26CB822849F19B00F4A431 /* DailyScrum.swift in Sources */,
+				CF26CB802849E85A00F4A431 /* Theme.swift in Sources */,
 				CF26CB5728415DCB00F4A431 /* MeetingView.swift in Sources */,
 				CF26CB5528415DCB00F4A431 /* ScrumdingerApp.swift in Sources */,
 			);
