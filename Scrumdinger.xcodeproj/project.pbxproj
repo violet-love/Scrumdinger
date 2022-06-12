@@ -20,6 +20,7 @@
 		CFB0787928503AB0009AE582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB0787828503AB0009AE582 /* Assets.xcassets */; };
 		CFB0787B28503B20009AE582 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0787A28503B20009AE582 /* CardView.swift */; };
 		CFB0787E28504F76009AE582 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0787D28504F76009AE582 /* TrailingIconLabelStyle.swift */; };
+		CFE56BDF2855589500536C81 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE56BDE2855589500536C81 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		CFB0787828503AB0009AE582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../Downloads/CreatingACardView/Complete/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
 		CFB0787A28503B20009AE582 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CFB0787D28504F76009AE582 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CFE56BDE2855589500536C81 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				CFB0787D28504F76009AE582 /* TrailingIconLabelStyle.swift */,
 				CF27D81F2851430600DBF911 /* ScrumsView.swift */,
 				CF69F34B2854429500B0E3F5 /* DetailView.swift */,
+				CFE56BDE2855589500536C81 /* DetailEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				CF26CB822849F19B00F4A431 /* DailyScrum.swift in Sources */,
 				CF69F34C2854429500B0E3F5 /* DetailView.swift in Sources */,
+				CFE56BDF2855589500536C81 /* DetailEditView.swift in Sources */,
 				CFB0787E28504F76009AE582 /* TrailingIconLabelStyle.swift in Sources */,
 				CF26CB802849E85A00F4A431 /* Theme.swift in Sources */,
 				CF27D8202851430600DBF911 /* ScrumsView.swift in Sources */,
